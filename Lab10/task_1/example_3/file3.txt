@@ -1,0 +1,4 @@
+InputStream webIn = new URL("https://www.google.com").openStream();
+            readAllByByte(webIn);
+            webIn.close();
+            System.out.println("\n\n\n")
